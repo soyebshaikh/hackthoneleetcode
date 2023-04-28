@@ -20,20 +20,11 @@ class Solution {
             rev=rev*10+x%10;
             x=x/10;
         }
-        if(temp<0)
-        {
-            if(temp==rev){
-            return true;
-        }else{
-            return false;
-        }
-        }
-        else{
+        
         if(temp==rev){
             return true;
         }else{
             return false;
-        }
         }
     }
 }
